@@ -9,7 +9,7 @@ metadata:
     example.com/service-discovery: artistweb
   tags:
     - java
-    - Certificate: BLAH
+    - certificate
   links:
     - url: https://admin.example-org.com
       title: Admin Dashboard
