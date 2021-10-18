@@ -4,7 +4,7 @@ metadata:
   name: hello-world
   description: Example
   labels:
-    example.com/custom: custom_label_value
+    example.com/custom: foo
   annotations:
     example.com/service-discovery: artistweb
   tags:
