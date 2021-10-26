@@ -14,6 +14,9 @@ metadata:
     - url: https://admin.example-org.com
       title: Admin Dashboard
       icon: dashboard
+  certs:
+    - name: Test
+      expiration_date: Test
 spec:
   type: website
   lifecycle: production
