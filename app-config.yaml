@@ -16,7 +16,9 @@ metadata:
       icon: dashboard
   certs:
     - name: Test
-      expiration_date: Test
+      expiration_date: 10/10/2022
+    - name: Test 2
+      expiration_date: 10/10/2020
 spec:
   type: website
   lifecycle: production
