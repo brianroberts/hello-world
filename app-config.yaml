@@ -24,3 +24,4 @@ spec:
   lifecycle: production
   owner: egis-team-1
   system: EGIS
+  domain: bar
