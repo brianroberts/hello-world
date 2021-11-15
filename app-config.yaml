@@ -22,6 +22,5 @@ metadata:
 spec:
   type: website
   lifecycle: production
-  owner: artist-relations-team
-  system: public-websites
-  certificates: blah-blah-blah
+  owner: egis-team-1
+  system: EGIS
