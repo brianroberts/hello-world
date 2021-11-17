@@ -14,13 +14,17 @@ metadata:
     - url: https://admin.example-org.com
       title: Admin Dashboard
       icon: dashboard
-  certs:
-    - name: Test
+  certificates:
+    - client_name: Test
       expiration_date: 10/10/2022
-    - name: Test 2
+    - client_name: Test 2
       expiration_date: 10/10/2020
-  test:
-    - name: blah
+  contact_info:
+    - contact_type: lead
+      name: Brian
+      email: brian@email.com
+      team: EGIS
+      role: team lead
 spec:
   type: website
   lifecycle: production
