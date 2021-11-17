@@ -19,6 +19,8 @@ metadata:
       expiration_date: 10/10/2022
     - name: Test 2
       expiration_date: 10/10/2020
+  test:
+    - name: blah
 spec:
   type: website
   lifecycle: production
