@@ -25,6 +25,11 @@ metadata:
       email: brian@email.com
       team: EGIS
       role: team lead
+    - contact_type: tech_lead
+      name: Betty
+      email: betty@email.com
+      team: EGIS
+      role: Tech Lead
 spec:
   type: website
   lifecycle: production
