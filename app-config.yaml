@@ -21,87 +21,33 @@ metadata:
       expiration_date: 10/10/2020
   contact_info:
     - contact_type: lead
-      name: Brian
-      email: brian@email.com
+      name: Betty Lead
+      email: betty@email.com
       team: EGIS
       role: team lead
     - contact_type: tech_lead
-      name: Betty
-      email: betty@email.com
+      name: George Techie
+      email: george@email.com
       team: EGIS
       role: Tech Lead
+    - contact_type: po
+      name: P. Rod Uct
+      email: prod@email.com
+      team: EGIS
+      role: Product Owner
+    - contact_type: pm
+      name: Proj Ect Manger
+      email: projectm@email.com
+      team: EGIS
+      role: Scrum Master
+    - contact_type: isso
+      name: Isso Lisso
+      email: isso@email.com
+      team: EGIS
+      role: ISSO
 spec:
   type: website
   lifecycle: production
   owner: egis-hello-world
   system: EGIS
   domain: bar
----
-apiVersion: backstage.io/v1alpha1
-kind: Group
-metadata:
-  name: egis-hello-world
-  description: EGIS
-spec:
-  type: team
-  profile:
-    # Intentional no displayName for testing
-    email: team-a@example.com
-    picture: https://avatars.dicebear.com/api/identicon/team-a@example.com.svg?background=%23fff&margin=25
-  parent: backstage
-  children: []
----
-apiVersion: backstage.io/v1alpha1
-kind: User
-metadata:
-  name: hello-world-lead
-spec:
-  profile:
-    displayName: Breanna Davison
-    email: breanna-davison@example.com
-    role: Team Lead
-  memberOf: [egis-hello-world]
----
-apiVersion: backstage.io/v1alpha1
-kind: User
-metadata:
-  name: hello-world-tech-lead
-spec:
-  profile:
-    displayName: Janelle Dawe
-    email: janelle-dawe@example.com
-    role: Senior Lead Developer
-  memberOf: [egis-hello-world]
----
-apiVersion: backstage.io/v1alpha1
-kind: User
-metadata:
-  name: hello-world-po
-spec:
-  profile:
-    displayName: Breanna Davison
-    email: nigel-manning@example.com
-    role: Product Owner
-  memberOf: [egis-hello-world]
----
-apiVersion: backstage.io/v1alpha1
-kind: User
-metadata:
-  name: hello-world-pm
-spec:
-  profile:
-    displayName: Breanna Davison
-    email: nigel-manning2@example.com
-    role: Scrum Master
-  memberOf: [egis-hello-world]
----
-apiVersion: backstage.io/v1alpha1
-kind: User
-metadata:
-  name: hello-world-isso
-spec:
-  profile:
-    displayName: Breanna Davison
-    email: nigel-manning3@example.com
-    role: ISSO
-  memberOf: [egis-hello-world]
