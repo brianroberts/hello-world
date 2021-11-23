@@ -40,7 +40,7 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: Group
 metadata:
-  name: egis-team
+  name: egis-team-1
   description: EGIS
 spec:
   type: team
@@ -60,7 +60,7 @@ spec:
     # Intentional no displayName for testing
     email: breanna-davison@example.com
     picture: https://avatars.dicebear.com/api/avataaars/breanna-davison@example.com.svg?background=%23fff
-  memberOf: [team-a]
+  memberOf: [egis-team-1]
 ---
 apiVersion: backstage.io/v1alpha1
 kind: User
@@ -71,7 +71,7 @@ spec:
     displayName: Janelle Dawe
     email: janelle-dawe@example.com
     picture: https://avatars.dicebear.com/api/avataaars/janelle-dawe@example.com.svg?background=%23fff
-  memberOf: [team-a]
+  memberOf: [egis-team-1]
 ---
 apiVersion: backstage.io/v1alpha1
 kind: User
@@ -82,4 +82,4 @@ spec:
     displayName: Nigel Manning
     email: nigel-manning@example.com
     picture: https://avatars.dicebear.com/api/avataaars/nigel-manning@example.com.svg?background=%23fff
-  memberOf: [team-a]
+  memberOf: [egis-team-1]
