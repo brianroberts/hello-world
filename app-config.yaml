@@ -57,9 +57,9 @@ metadata:
   name: hello-world-lead
 spec:
   profile:
-    # Intentional no displayName for testing
+    displayName: Breanna Davison
     email: breanna-davison@example.com
-    picture: https://avatars.dicebear.com/api/avataaars/breanna-davison@example.com.svg?background=%23fff
+    role: Team Lead
   memberOf: [egis-hello-world]
 ---
 apiVersion: backstage.io/v1alpha1
@@ -70,7 +70,7 @@ spec:
   profile:
     displayName: Janelle Dawe
     email: janelle-dawe@example.com
-    picture: https://avatars.dicebear.com/api/avataaars/janelle-dawe@example.com.svg?background=%23fff
+    role: Senior Lead Developer
   memberOf: [egis-hello-world]
 ---
 apiVersion: backstage.io/v1alpha1
@@ -79,8 +79,9 @@ metadata:
   name: hello-world-po
 spec:
   profile:
+    displayName: Breanna Davison
     email: nigel-manning@example.com
-    picture: https://avatars.dicebear.com/api/avataaars/nigel-manning@example.com.svg?background=%23fff
+    role: Product Owner
   memberOf: [egis-hello-world]
 ---
 apiVersion: backstage.io/v1alpha1
@@ -89,8 +90,9 @@ metadata:
   name: hello-world-pm
 spec:
   profile:
+    displayName: Breanna Davison
     email: nigel-manning2@example.com
-    picture: https://avatars.dicebear.com/api/avataaars/nigel-manning@example.com.svg?background=%23fff
+    role: Scrum Master
   memberOf: [egis-hello-world]
 ---
 apiVersion: backstage.io/v1alpha1
@@ -99,6 +101,7 @@ metadata:
   name: hello-world-isso
 spec:
   profile:
+    displayName: Breanna Davison
     email: nigel-manning3@example.com
-    picture: https://avatars.dicebear.com/api/avataaars/nigel-manning@example.com.svg?background=%23fff
+    role: ISSO
   memberOf: [egis-hello-world]
