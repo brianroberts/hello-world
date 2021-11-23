@@ -79,7 +79,6 @@ metadata:
   name: hello-world-po
 spec:
   profile:
-    displayName: Nigel Manning
     email: nigel-manning@example.com
     picture: https://avatars.dicebear.com/api/avataaars/nigel-manning@example.com.svg?background=%23fff
   memberOf: [egis-hello-world]
@@ -90,7 +89,6 @@ metadata:
   name: hello-world-pm
 spec:
   profile:
-    displayName: Nigel Manning
     email: nigel-manning2@example.com
     picture: https://avatars.dicebear.com/api/avataaars/nigel-manning@example.com.svg?background=%23fff
   memberOf: [egis-hello-world]
@@ -101,7 +99,6 @@ metadata:
   name: hello-world-isso
 spec:
   profile:
-    displayName: Nigel Manning
     email: nigel-manning3@example.com
     picture: https://avatars.dicebear.com/api/avataaars/nigel-manning@example.com.svg?background=%23fff
   memberOf: [egis-hello-world]
