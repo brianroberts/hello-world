@@ -33,7 +33,7 @@ metadata:
 spec:
   type: website
   lifecycle: production
-  owner: egis-team
+  owner: egis-team-1
   system: EGIS
   domain: bar
 ---
